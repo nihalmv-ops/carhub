@@ -1,16 +1,100 @@
-# React + Vite
+# 🚗 CarHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive car showcase website built with **React** and **Vite**.
 
-Currently, two official plugins are available:
+## 🌟 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+CarHub is a frontend project created to practice modern web development and UI design. The goal is to gradually evolve this project into a complete **MERN Stack application** with authentication, database integration, and an admin dashboard.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Premium responsive navigation bar
+* Modern UI design
+* Fast performance with Vite
+* Clean React component structure
+* Mobile-friendly layout
+* GitHub and Netlify deployment
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* JavaScript (ES6+)
+* CSS3
+* Git & GitHub
+* Netlify
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   └── Navbar.jsx
+├── pages/
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/nihalmv-ops/carhub.git
+```
+
+Navigate into the project:
+
+```bash
+cd carhub
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## 📈 Future Improvements
+
+* Hero Section
+* Featured Cars
+* Car Details Page
+* React Router Integration
+* User Authentication
+* Backend API with Express.js
+* MongoDB Database
+* Admin Dashboard
+* Car Booking System
+
+## 🌐 Live Demo
+
+Add your Netlify URL here:
+
+```
+carhu.netlify.app
+```
+
+## 👨‍💻 Developer
+
+**Nihal M V**
+
+Learning and building modern web applications with the MERN Stack.
+
+---
+
+⭐ If you like this project, feel free to star the repository.
