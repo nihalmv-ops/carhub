@@ -1,89 +1,15 @@
-   /* navbar style */
-
-* {
+   
+   
+   * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #111;
+  background: #111;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar {
-  height: 80px;
-  background-color: #1a1a1a;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  padding: 0 80px;
-}
-
-.logo {
-  color: gold;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.menu {
-  display: flex;
-  list-style: none;
-  gap: 35px;
-}
-
-.menu li {
-  color: white;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.menu li:hover {
-  color: gold;
-}
-
-/* hero style */
-
-.hero{
-  height: 90vh;
-   
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  text-align: center;
-
-}
-.hero h1{
-  color: white;
-  font-size: 60px;
-  margin-bottom: 20px;
-
-}
-.hero p{
-  color:#cfcfcf ;
-  font-size: 20px;
-  margin-bottom: 30px;
-
-}
-
-.hero button{
-  padding: 15px 35px;
-  font-size: 18px;
-
-  background: gold;
-  border: none;
-  border-radius: 8px;
-
-  cursor: pointer;
-  transform: 0.3s;
-}
-
-.hero button:hover{
-  transform: scale(1.05);
-  
-}
 

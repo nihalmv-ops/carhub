@@ -1,6 +1,8 @@
+
 export default function Hero(){
     return(
         <section className="hero">
+            <div className="overlay">
             <h1>
                 DRIVE YOUR DREAM CAR
             </h1>
@@ -10,6 +12,7 @@ export default function Hero(){
             <button>
                 Explore cars
             </button>
+            </div>
         </section>
     )
 }
