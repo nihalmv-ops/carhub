@@ -1,11 +1,13 @@
 /* hero style */
 
 .hero{
-  height: 90vh;
-
-  background-image: url(../assets/image/redcar.png);
-  background-size: cover ;
+ 
+  height: 100vh;
+  background-image: url("/car.png");
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+
 
 
    
@@ -50,32 +52,3 @@
 
 /* ovely class */
 
-
-.ovelay{
-  background:rgba(0, 0, 0, 0.55) ;
-  width: 100%;
-  height: 100%;
-   
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-
-}
-.ovelay h1{
-  color: white;
-  font-size: 65px;
-  margin-bottom: 20px;
-}
-.ovelay button{
-    padding: 15px 35px;
-  border: none;
-  border-radius: 8px;
-
-   font-size: 18px;
-  cursor: pointer;
-}
-.overlay button:hover {
-  transform: scale(1.05);
-}
