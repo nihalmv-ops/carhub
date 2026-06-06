@@ -12,6 +12,9 @@ body {
 }
 
 .navbar {
+  border-radius: 20px;
+  border:#da0303;
+  box-shadow: #720d0d;
   height: 80px;
   background-color: #180101;
 
