@@ -1,8 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import "./App.css";
-import "./components/Navbar.css";
-import "./components/Hero.css";
+import Cars from "./components/Cars";
+
 
 
 function App() {
@@ -10,6 +9,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
+      <Cars/>
     </div>
   );
 }
