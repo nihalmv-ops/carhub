@@ -1,27 +1,22 @@
 import "./Cars.css";
+import cars from "../data";
 
 export default function Cars() {
   return (
-    <div className="car-card">
+    <div className="cars-container">
 
-      <img
-        src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600"
-        alt="BMW M4"
-      />
+      {cars.map((car) => (
+        <div className="car-card" key={car.id}>
 
-      <h2>BMW M4 Competition</h2>
+          <h2>{car.name}</h2>
 
-      <p className="type">
-        Luxury Sports Coupe
-      </p>
+          <h3>{car.price}</h3>
 
-      <h3>₹1.53 Crore</h3>
+          <button>View Details</button>
 
-      <button>View Details</button>
+        </div>
+      ))}
 
     </div>
-    
-
-    
-  )
+  );
 }
