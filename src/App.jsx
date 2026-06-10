@@ -1,16 +1,16 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Cars from "./components/Cars";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
+import Home from "./pages/Home";
+import CarDetails from "./pages/CarDetails";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Cars/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/car-details" element={<CarDetails />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
