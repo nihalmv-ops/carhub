@@ -1,0 +1,49 @@
+.details-container {
+  min-height: 100vh;
+  background: #111;
+  color: white;
+  padding: 50px;
+}
+
+.details-card {
+  max-width: 1100px;
+  margin: auto;
+
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.details-image {
+  .details-card img {
+  width: 100%;
+  max-width: px;
+  height: auto;
+  border-radius: 20px;
+}
+}
+
+.details-info h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.price {
+  color: gold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.type {
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.book-btn {
+  padding: 15px 35px;
+  border: none;
+  border-radius: 30px;
+  background: gold;
+  cursor: pointer;
+  font-size: 18px;
+}
