@@ -14,30 +14,47 @@ export default function CarDetails() {
   }
 
   return (
-    <div className="details-container">
-      <div className="details-card">
+    <div
+      className="details-container"
+      style={{
+        backgroundImage: `url(${car.image})`,
+      }}
+    >
+      <div className="overlay">
 
-        <img
-          src={car.image}
-          alt={car.name}
-          className="details-image"
-        />
+        <div className="details-card">
 
-        <div className="details-info">
+          <img
+            src={car.image}
+            alt={car.name}
+            className="car-image"
+          />
 
-          <h1>{car.name}</h1>
+          <div className="car-info">
 
-          <h2 className="price">
-            {car.price}
-          </h2>
+            <h1>{car.name}</h1>
 
-          <p className="type">
-            {car.type}
-          </p>
+            <h2 className="price">
+              {car.price}
+            </h2>
 
-          <button className="book-btn">
-            Book Now
-          </button>
+            <p>{car.type}</p>
+
+            <div className="specs">
+
+              <p>Engine: {car.engine}</p>
+
+              <p>Power: {car.power}</p>
+
+              <p>Top Speed: {car.topSpeed}</p>
+
+            </div>
+
+            <button className="book-btn">
+              Book Test Drive
+            </button>
+
+          </div>
 
         </div>
 
