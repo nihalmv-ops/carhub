@@ -1,6 +1,12 @@
 .navbar {
-  background-color: #1e0202;
-  color: white;
+  position: sticky;
+  top: 0;
+
+  z-index: 1000;
+
+  background: rgba(17, 17, 17, 0.9);
+
+  backdrop-filter: blur(10px);
 
   display: flex;
   justify-content: space-between;
@@ -12,12 +18,12 @@
 .logo {
   color: gold;
   font-size: 30px;
+  font-weight: bold;
 }
 
 .nav-links {
   display: flex;
   gap: 30px;
-
   list-style: none;
 }
 
@@ -25,10 +31,9 @@
   color: white;
   text-decoration: none;
   font-size: 18px;
-
   transition: 0.3s;
 }
 
 .nav-links a:hover {
-  color: rgb(238, 19, 12);
+  color: gold;
 }

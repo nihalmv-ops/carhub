@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import cars from "../data";
 import "./CarDetails.css";
 
@@ -49,10 +49,11 @@ export default function CarDetails() {
               <p>Top Speed: {car.topSpeed}</p>
 
             </div>
-
+           <Link to="/book-test-drive">
             <button className="book-btn">
               Book Test Drive
             </button>
+            </Link>
 
           </div>
 

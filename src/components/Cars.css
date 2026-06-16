@@ -1,5 +1,5 @@
 body{
-  background-color: #1b1b1b;
+  background:linear-gradient(to right,#170707,rgb(79, 3, 3))
 }
 .car-card {
   width: 320px;
@@ -51,3 +51,101 @@ body{
 .car-card button:hover {
   background: orange;
 }
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.search-input {
+  width: 450px;
+  padding: 18px 25px;
+
+  border: none;
+  outline: none;
+
+  border-radius: 50px;
+
+  font-size: 18px;
+
+  background: rgba(255, 255, 255, 0.1);
+
+  backdrop-filter: blur(10px);
+
+  color: white;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+
+  transition: all 0.3s ease;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-input:focus {
+  transform: scale(1.03);
+
+  box-shadow:
+    0 0 20px rgba(255, 215, 0, 0.5),
+    0 8px 25px rgba(0, 0, 0, 0.4);
+}
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+
+  margin-bottom: 40px;
+}
+
+.filter-buttons button {
+  padding: 12px 25px;
+
+  border: none;
+  border-radius: 30px;
+
+  background: #1e1e1e;
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.filter-buttons button:hover {
+  background: gold;
+  color: black;
+
+  transform: translateY(-3px);
+}
+
+.sort-container {
+  display: flex;
+  justify-content: left;
+  
+  padding: 20px;
+  margin: 20px;
+
+  margin-bottom: 20px;
+}
+
+.sort-container select {
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: 30px;
+
+  background: #501414;
+  color: white;
+
+  font-size: 16px;
+
+  cursor: pointer;
+  
+ 
+}
+
+
+
+  

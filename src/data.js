@@ -2,7 +2,7 @@ const cars = [
   {
     id: 1,
     name: "BMW M4",
-    price: "₹1.53 Crore",
+    price: 15300000,
     type: "Luxury Sports Coupe",
     image: "/bmw.jpg",
   },
@@ -10,7 +10,7 @@ const cars = [
   {
     id: 2,
     name: "Audi R8",
-    price: "₹2.30 Crore",
+    price:23000000,
     type: "High Performance Supercar",
     image: "/audi.jpg",
   },
@@ -18,7 +18,7 @@ const cars = [
   {
     id: 3,
     name: "Porsche 911",
-    price: "₹1.90 Crore",
+    price: 19000000,
     type: "Iconic Sports Car",
     image: "/Porsche 911.jpg",
   },
