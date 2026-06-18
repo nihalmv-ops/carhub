@@ -1,0 +1,31 @@
+.stats {
+  background: #111;
+
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+  flex-wrap: wrap;
+
+  padding: 80px 20px;
+}
+
+.stat-box {
+  text-align: center;
+
+  min-width: 180px;
+}
+
+.stat-box h1 {
+  color: gold;
+
+  font-size: 50px;
+
+  margin-bottom: 10px;
+}
+
+.stat-box p {
+  font-size: 18px;
+}

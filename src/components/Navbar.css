@@ -37,3 +37,19 @@
 .nav-links a:hover {
   color: gold;
 }
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 15px;
+  }
+
+  .logo {
+    font-size: 35px;
+  }
+
+  .nav-links {
+    gap: 15px;
+    font-size: 16px;
+  }
+
+}

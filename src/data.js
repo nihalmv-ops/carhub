@@ -20,7 +20,7 @@ const cars = [
     name: "Porsche 911",
     price: 19000000,
     type: "Iconic Sports Car",
-    image: "/Porsche 911.jpg",
+    image: "/porsche911.jpg",
   },
 ];
 
